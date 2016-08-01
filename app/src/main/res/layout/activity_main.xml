@@ -9,10 +9,11 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.ruslan.advertisingpush.MainActivity">
+
     <com.google.android.gms.ads.AdView
         android:id="@+id/banner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         ads:adSize="BANNER"
-        ads:adUnitId="@string/banner_id"/>
+        ads:adUnitId="@string/banner_id" />
 </RelativeLayout>
